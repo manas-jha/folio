@@ -778,6 +778,10 @@ footer{
     .group-textarea{
         width: 100%;
     }
+    .group-input:focus ~ .bar:before, 
+.group-textarea:focus ~ .bar:before {
+    width: 100%;
+}
 }
 
 
